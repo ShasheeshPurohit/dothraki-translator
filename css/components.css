@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.808),rgba(0, 0, 0, 0.808)), url("../images/got.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+header{
+    height: 10vh;
+    text-align: center;
+    padding-top: 4%;
+}
+
+#hero-heading{
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+#txt-area{
+    display: block;
+    margin: auto;
+    width: 80%;
+    margin-top: 8%;
+    height: 10vh;
+    padding: 1rem;
+    border-radius: 25px;
+}
+
+#btn-translate{
+    margin-top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 3rem;
+    border-radius: 25px;
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: 700;
+    width: 7rem;
+}
+
+#output-heading{
+    margin-top: 2%;
+    text-align: center;
+}
+
+#output{
+    border: 1px solid white;
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 25px;
+    color: white;
+    height: 10vh;
+    margin-top: 2%;
+}
+
+footer{
+    margin-top: 5%;
+    text-align: center;
+}
+
+footer p{
+    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: 0.2rem;
+
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid transparent;
+    transition: all 0.2s;
+}
+
+.link-heading{
+    margin-top: 2%;
+}
+
+.link:hover{
+    border-bottom: 2px solid white;
+}
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+}
+
+.social-link-item{
+    margin: 1rem;
+}
+
